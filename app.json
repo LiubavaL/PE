@@ -1,5 +1,21 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
+    "sdkVersion": "27.0.0",
+    "orientation": "portrait",
+    "slug": "eyes-price",
+    "name": "Eyes Price",
+    "icon": "./assets/icons/mipmap-xxxhdpi/icon.png",
+    "version": "1.0.0",
+    "description": "PE app",
+    "privacy": "unlisted",
+    "android": {
+    	"package": "com.peco.eyesprice",
+    	"config": {
+    		"googleMaps": { "apiKey": "AIzaSyCBru-NiUrpKh7hxazNhc5cgQmHX8kFYgY"}
+    	}
+    },
+    "ios": {
+    	"bundleIdentifier": "com.peco.eyesprice"
+    }
   }
 }
